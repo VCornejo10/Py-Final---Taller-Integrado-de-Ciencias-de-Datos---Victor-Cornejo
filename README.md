@@ -47,7 +47,7 @@ cd "Py Final - Taller Integrado de Ciencias de Datos - Victor Cornejo"
 
 ### **2. Entrenar el Modelo (Opcional)**
 
-El dataset y el modelo se pudieron subir a github, pero en el cazo que se quiera generar un nuevo modelo desde 0, estos son los pasos a seguir.
+El dataset y el modelo se pudieron subir a github, pero en el caso que se quiera generar un nuevo modelo desde 0, estos son los pasos a seguir.
 
 1.  Levantar el backend:
 
