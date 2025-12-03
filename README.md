@@ -42,7 +42,7 @@ Requisitos: **Docker + Docker Compose**.
 
 ``` bash
 git clone https://github.com/VCornejo10/Py-Final---Taller-Integrado-de-Ciencias-de-Datos---Victor-Cornejo
-cd "Py Final - Taller Integrado de Ciencias de Datos - Victor Cornejo"
+cd "Py-Final---Taller-Integrado-de-Ciencias-de-Datos---Victor-Cornejo"
 ```
 
 ### **2. Entrenar el Modelo (Opcional)**
