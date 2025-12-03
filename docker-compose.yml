@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app  # Para desarrollo: cambios en vivo
+    # Importante: Corre el entrenamiento si no existe el modelo
+    # Pero para la primera vez, se recomienda entrar al contenedor y correrlo manual
+    command: python app.py 
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
